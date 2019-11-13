@@ -20,7 +20,7 @@ fun main() {
 }
 ```
 
-### Conditional expressions
+#### Conditional expressions
 ```kotlin
 1. In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this.
 
@@ -33,9 +33,9 @@ fun main() {
 OUTPUT
 max of 0 and 42 is 42
 ```
+##### Nullable values and null checks:-
 ```kotlin
 EXAMPLE 2:-
-Nullable values and null checks:-
 
 fun parseInt(str: String):Int?{
     return str.toIntOrNull()
