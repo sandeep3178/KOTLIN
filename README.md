@@ -20,7 +20,7 @@ fun main() {
 }
 ```
 
-#### Conditional expressions
+### Conditional expressions
 ```kotlin
 1. In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this.
 
