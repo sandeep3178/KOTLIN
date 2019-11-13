@@ -25,7 +25,7 @@ fun main() {
 ```kotlin
 In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this.
 
-EXAMPLE:-
+**EXAMPLE**:-
 
 fun maxOf(a: Int, b: Int) = if (a > b) a else b
 fun main() {
